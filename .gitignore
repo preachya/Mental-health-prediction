@@ -8,10 +8,19 @@ __pycache__/
 
 # Jupyter
 .ipynb_checkpoints/
+**/.ipynb_checkpoints/
 
-# Trained models
+# Trained models / artifacts
 *.pkl
 *.joblib
+*.h5
+models/*
+!models/.gitkeep
+
+# Build / cache
+*.egg-info/
+.pytest_cache/
+.ipython/
 
 # Processed data
 data/processed/

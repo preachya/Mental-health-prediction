@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jupyter",
+      "runtimeExecutable": ".venv\\Scripts\\jupyter.exe",
+      "runtimeArgs": ["notebook", "--no-browser", "--NotebookApp.token=''", "--NotebookApp.password=''"],
+      "port": 8888
+    }
+  ]
+}
